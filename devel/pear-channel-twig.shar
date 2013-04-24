@@ -1,0 +1,48 @@
+# This is a shell archive.  Save it in a file, remove anything before
+# this line, and then unpack it by entering "sh file".  Note, it may
+# create directories; files and directories will be owned by you and
+# have default permissions.
+#
+# This archive contains:
+#
+#	pear-channel-twig
+#	pear-channel-twig/files
+#	pear-channel-twig/files/pear.twig-project.org.reg
+#	pear-channel-twig/pkg-descr
+#	pear-channel-twig/Makefile
+#
+echo c - pear-channel-twig
+mkdir -p pear-channel-twig > /dev/null 2>&1
+echo c - pear-channel-twig/files
+mkdir -p pear-channel-twig/files > /dev/null 2>&1
+echo x - pear-channel-twig/files/pear.twig-project.org.reg
+sed 's/^X//' >pear-channel-twig/files/pear.twig-project.org.reg << '915a4d966fa4398ef46eae81c34d82ae'
+915a4d966fa4398ef46eae81c34d82ae
+echo x - pear-channel-twig/pkg-descr
+sed 's/^X//' >pear-channel-twig/pkg-descr << 'fcb0f5dace38cb8218842a137535dffe'
+XPEAR channel for the Twig project
+X
+XWWW: http://twig.sensiolabs.org/
+fcb0f5dace38cb8218842a137535dffe
+echo x - pear-channel-twig/Makefile
+sed 's/^X//' >pear-channel-twig/Makefile << '5de573fa6193eb20abf8e5130d53f38e'
+X# Ports collection makefile for:  pear-channel-twig
+X# Date created:			  23 april 2013
+X# Whom:				  Victor Pereira <v.pereira@packetwerk.de>
+X#
+X
+XPORTNAME=	twig
+XPORTVERSION=	1.12.3
+XCATEGORIES=	devel www pear
+X
+XMAINTAINER=	v.pereira@packetwerk.de
+XCOMMENT=	PEAR channel ${PEAR_CHANNEL_HOST}
+X
+XPEAR_CHANNEL_HOST=	pear.twig-project.org
+X
+X.include <bsd.port.pre.mk>
+X.include "${PORTSDIR}/devel/pear/bsd.pear.channel.mk"
+X.include <bsd.port.post.mk>
+5de573fa6193eb20abf8e5130d53f38e
+exit
+
